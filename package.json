@@ -6,6 +6,8 @@
   "scripts": {
     "test": "#",
     "start": "node app.js"
+
+    
   },
   "author": "Abdilkani",
   "license": "ISC",
