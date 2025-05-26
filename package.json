@@ -6,17 +6,17 @@
   "scripts": {
     "test": "#",
     "start": "node app.js"
-
-    
   },
   "engines": {
-  "node": ">=18"
-}
-,
+    "node": ">=18"
+  },
   "author": "Abdilkani",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.0",
     "serve-static": "^2.2.0"
   }
 }

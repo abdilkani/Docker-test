@@ -1,0 +1,1 @@
+mongodb+srv://caabieidle:<atdlytgXLN7UjjDZ>@cluster0.fjlrqjp.mongodb.net/
