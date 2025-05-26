@@ -6,12 +6,11 @@
   "scripts": {
     "test": "#",
     "start": "node app.js"
-
-    
   },
   "author": "Abdilkani",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "serve-static": "^2.2.0"
   }
 }
