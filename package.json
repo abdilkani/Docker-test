@@ -1,12 +1,15 @@
 {
-  "name": "c",
+  "name": "Docker",
   "version": "1.0.0",
   "description": "npm install",
   "main": "app.js",
   "scripts": {
-    "test": "#"
+    "test": "#",
+    "start": "node app.js"
+
+    
   },
-  "author": "",
+  "author": "Abdilkani",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
