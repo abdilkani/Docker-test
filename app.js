@@ -21,6 +21,12 @@ mongoose.connect(process.env.MONGO_URI, {
   console.error("❌ MongoDB connection error:", err);
 });
 
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
+
+
 // Define a schema and model
 const messageSchema = new mongoose.Schema({
   name: String,
@@ -51,3 +57,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
+
