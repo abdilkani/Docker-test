@@ -1,0 +1,14 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "npm install",
+  "main": "app.js",
+  "scripts": {
+    "test": "#"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
